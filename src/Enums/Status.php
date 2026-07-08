@@ -2,9 +2,9 @@
 
 namespace Coderflex\LaravelTicket\Enums;
 
-enum Status: string
+enum Status: int
 {
-    case OPEN = 'open';
-    case CLOSED = 'closed';
-    case ARCHIVED = 'archived';
+    case OPEN = 1;
+    case CLOSED = 2;
+    case ARCHIVED = 3;
 }

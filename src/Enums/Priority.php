@@ -2,9 +2,9 @@
 
 namespace Coderflex\LaravelTicket\Enums;
 
-enum Priority: string
+enum Priority: int
 {
-    case LOW = 'low';
-    case NORMAL = 'normal';
-    case HIGH = 'high';
+    case LOW = 1;
+    case NORMAL = 2;
+    case HIGH = 3;
 }
